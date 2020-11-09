@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ReactCalculator%20/static/css/main.69eda509.chunk.css",
-    "main.js": "/ReactCalculator%20/static/js/main.e04e8cf0.chunk.js",
-    "main.js.map": "/ReactCalculator%20/static/js/main.e04e8cf0.chunk.js.map",
-    "runtime-main.js": "/ReactCalculator%20/static/js/runtime-main.7348659f.js",
-    "runtime-main.js.map": "/ReactCalculator%20/static/js/runtime-main.7348659f.js.map",
-    "static/js/2.6325fd91.chunk.js": "/ReactCalculator%20/static/js/2.6325fd91.chunk.js",
-    "static/js/2.6325fd91.chunk.js.map": "/ReactCalculator%20/static/js/2.6325fd91.chunk.js.map",
-    "index.html": "/ReactCalculator%20/index.html",
-    "precache-manifest.adaf27ac2018e67cf48cabf06be20ed3.js": "/ReactCalculator%20/precache-manifest.adaf27ac2018e67cf48cabf06be20ed3.js",
-    "service-worker.js": "/ReactCalculator%20/service-worker.js",
-    "static/css/main.69eda509.chunk.css.map": "/ReactCalculator%20/static/css/main.69eda509.chunk.css.map",
-    "static/js/2.6325fd91.chunk.js.LICENSE.txt": "/ReactCalculator%20/static/js/2.6325fd91.chunk.js.LICENSE.txt"
+    "main.css": "/ReactCalculator/static/css/main.69eda509.chunk.css",
+    "main.js": "/ReactCalculator/static/js/main.5dc2d0e6.chunk.js",
+    "main.js.map": "/ReactCalculator/static/js/main.5dc2d0e6.chunk.js.map",
+    "runtime-main.js": "/ReactCalculator/static/js/runtime-main.b242e43c.js",
+    "runtime-main.js.map": "/ReactCalculator/static/js/runtime-main.b242e43c.js.map",
+    "static/js/2.65cb8b83.chunk.js": "/ReactCalculator/static/js/2.65cb8b83.chunk.js",
+    "static/js/2.65cb8b83.chunk.js.map": "/ReactCalculator/static/js/2.65cb8b83.chunk.js.map",
+    "index.html": "/ReactCalculator/index.html",
+    "precache-manifest.96339356e2a89cc5b6b001dea6d4c2fd.js": "/ReactCalculator/precache-manifest.96339356e2a89cc5b6b001dea6d4c2fd.js",
+    "service-worker.js": "/ReactCalculator/service-worker.js",
+    "static/css/main.69eda509.chunk.css.map": "/ReactCalculator/static/css/main.69eda509.chunk.css.map",
+    "static/js/2.65cb8b83.chunk.js.LICENSE.txt": "/ReactCalculator/static/js/2.65cb8b83.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7348659f.js",
-    "static/js/2.6325fd91.chunk.js",
+    "static/js/runtime-main.b242e43c.js",
+    "static/js/2.65cb8b83.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.e04e8cf0.chunk.js"
+    "static/js/main.5dc2d0e6.chunk.js"
   ]
 }
