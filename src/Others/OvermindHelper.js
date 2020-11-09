@@ -7,20 +7,42 @@ import {createHook} from "overmind-react";
 export const useOvermind = createHook();
 export const overmind = createOvermind({
     state: {
-        currentAnswer: 0
+        currentAnswer: 0,
+        putValue: 0,
+        putCondition: false
     },
     actions: {
-        add({state}, number) {
-            state.currentAnswer += number;
+        setCurrentAnswer({state}){
+            state.currentAnswer = 0;
         },
-        substract({state}, number) {
-            state.currentAnswer -= number;
+        setPutValue({state}, number){
+            state.putValue = number;
+            state.putCondition = true
         },
-        multiply({state}, number) {
-            state.currentAnswer *= number;
+        add({state}) {
+            state.currentAnswer += state.putValue;
+            state.putValue = 0;
+            state.putCondition = false
         },
-        divide({state}, number) {
-            state.currentAnswer /=  number;
+        substract({state}) {
+            state.currentAnswer -= state.putValue;
+            state.putValue = 0;
+            state.putCondition = false
+        },
+        multiply({state}) {
+            state.currentAnswer *= state.putValue;
+            state.putValue = 0;
+            state.putCondition = false
+        },
+        divide({state}) {
+
+            if (state.putValue==0){
+                state.currentAnswer = 0
+            }else{
+                state.currentAnswer /=  state.putValue;
+            }
+            state.putValue = 0;
+            state.putCondition = false
         }
     }
 });
