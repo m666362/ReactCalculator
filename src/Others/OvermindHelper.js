@@ -7,11 +7,20 @@ import {createHook} from "overmind-react";
 export const useOvermind = createHook();
 export const overmind = createOvermind({
     state: {
-        counter: 0
+        currentAnswer: 0
     },
     actions: {
-        increase({state}, number) {
-            state.counter += number
+        add({state}, number) {
+            state.currentAnswer += number;
         },
+        substract({state}, number) {
+            state.currentAnswer -= number;
+        },
+        multiply({state}, number) {
+            state.currentAnswer *= number;
+        },
+        divide({state}, number) {
+            state.currentAnswer /=  number;
+        }
     }
 });
